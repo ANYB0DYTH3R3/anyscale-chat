@@ -9,7 +9,7 @@ export const runtime = 'edge'
 
 const anyscaleAI = new OpenAI({
   baseURL: 'https://api.endpoints.anyscale.com/v1',
-  apiKey: process.env.ANYSCALE_API_KEY
+  apiKey: 'esecret_iyt8cukznmr4lvr26rrc1esfrl'
 })
 
 export async function POST(req: Request) {
